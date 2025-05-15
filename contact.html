@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Voyager – Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="form.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="logo.png" alt="Home Voyager Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container contact">
+    <h1>Contact Us</h1>
+    
+    <div class="contact-info">
+      <p><strong>Name:</strong> Anthony Kiptoo Kipkogei</p>
+      <p><strong>Email:</strong> <a href="mailto:anthonykiptoo19@gmail.com">anthonykiptoo19@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+254704661585">0704661585</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/antotoni-21" target="_blank">github.com/antotoni-21</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anthony-kiptoo-03b7b8270" target="_blank">linkedin.com/in/anthony-kiptoo-03b7b8270</a></p>
+    </div>
+
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="subject" placeholder="Subject" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Home Voyager. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0D1117;
+    color: #E5E5E5;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  header {
+    background: #111;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #00BFA6;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    color: #1976D2;
+  }
+  
+  .hero {
+    background: #1c1c1c;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    background: #1976D2;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .features .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    background: #0D1117;
+    border: 1px solid #444;
+    color: white;
+  }
+  
+  form button {
+    background: #1976D2;
+    padding: 0.75rem;
+    border: none;
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+  
+  /* ✅ Added styling for contact info */
+  .contact-info {
+    background: #1e1e1e;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    line-height: 1.8;
+  }
+  
+  .contact-info a {
+    color: #00BFA6;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
